@@ -39,7 +39,7 @@ export default function HomePage() {
         {/* Background video with enhanced zoom effect */}
         <video
           className="absolute inset-0 w-full h-full object-cover animate-zoom-slow"
-          src="/videos/02.mp4"
+          src="/ssplus_website/videos/02.mp4"
           autoPlay
           muted
           loop

@@ -19,19 +19,20 @@ export function ClientLogos({ currentLang }: ClientLogosProps) {
   const t = clientLogos[currentLang]
 
   // Actual client logos from the clients logos folder - all with consistent sizing
+  const basePath = "/ssplus_website"
   const logos = [
-    { name: "Weatherford International", src: "/images/clients logos/weatherford_international_logo.jpg" },
-    { name: "SAH Lilas", src: "/images/clients logos/sah_lilas.webp" },
-    { name: "Chahia", src: "/images/clients logos/chahia.jpg" },
-    { name: "Delice", src: "/images/clients logos/delice.jpg" },
-    { name: "OMV", src: "/images/clients logos/omv.avif" },
-    { name: "Logo", src: "/images/clients logos/logo.png" },
-    { name: "Perenco", src: "/images/clients logos/perenco.png" },
-    { name: "PSI", src: "/images/clients logos/PSI.jpg" },
-    { name: "Serinus Tunisie", src: "/images/clients logos/serinus-tunisie.jpg" },
-    { name: "CC Logo", src: "/images/clients logos/LOGO-CC-410-277.jpg" },
-    { name: "Client 1", src: "/images/clients logos/1699729366162.jpg" },
-    { name: "Client 2", src: "/images/clients logos/images.jpg" },
+    { name: "Weatherford International", src: `${basePath}/images/clients logos/weatherford_international_logo.jpg` },
+    { name: "SAH Lilas", src: `${basePath}/images/clients logos/sah_lilas.webp` },
+    { name: "Chahia", src: `${basePath}/images/clients logos/chahia.jpg` },
+    { name: "Delice", src: `${basePath}/images/clients logos/delice.jpg` },
+    { name: "OMV", src: `${basePath}/images/clients logos/omv.avif` },
+    { name: "Logo", src: `${basePath}/images/clients logos/logo.png` },
+    { name: "Perenco", src: `${basePath}/images/clients logos/perenco.png` },
+    { name: "PSI", src: `${basePath}/images/clients logos/PSI.jpg` },
+    { name: "Serinus Tunisie", src: `${basePath}/images/clients logos/serinus-tunisie.jpg` },
+    { name: "CC Logo", src: `${basePath}/images/clients logos/LOGO-CC-410-277.jpg` },
+    { name: "Client 1", src: `${basePath}/images/clients logos/1699729366162.jpg` },
+    { name: "Client 2", src: `${basePath}/images/clients logos/images.jpg` },
   ]
 
   return (

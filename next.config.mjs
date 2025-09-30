@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   output: 'export',
+  basePath: '/ssplus_website',
+  assetPrefix: '/ssplus_website/',
   eslint: {
     ignoreDuringBuilds: true,
   },

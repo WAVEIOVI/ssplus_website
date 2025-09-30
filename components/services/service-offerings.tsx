@@ -14,7 +14,7 @@ const services = {
         title: "Maintenance & Inspection",
         description: "Services de maintenance préventive et inspections certifiées selon les normes tunisiennes. Nous garantissons la conformité et le bon fonctionnement de vos équipements de sécurité incendie avec nos techniciens certifiés et nos protocoles rigoureux.",
         href: "/services/maintenance",
-        image: "/maintenance-inspection-fire-equipment.jpg",
+  image: "/ssplus_website/maintenance-inspection-fire-equipment.jpg",
         features: [
           "Maintenance préventive programmée",
           "Inspections réglementaires",
@@ -28,7 +28,7 @@ const services = {
         title: "Formation & Conseil",
         description: "Formation professionnelle en sécurité incendie et conseil en prévention. Développez une culture de sécurité efficace avec nos programmes adaptés à votre secteur d'activité et nos formateurs certifiés.",
         href: "/services/training",
-        image: "/fire-safety-training.png",
+  image: "/ssplus_website/fire-safety-training.png",
         features: [
           "Formation manipulation extincteurs",
           "Évacuation d'urgence",
@@ -42,7 +42,7 @@ const services = {
         title: "Études & Conception",
         description: "Études techniques et conception de systèmes de sécurité sur mesure. Nos ingénieurs experts vous accompagnent dans l'élaboration de solutions adaptées à vos besoins spécifiques et conformes aux réglementations tunisiennes.",
         href: "/services/consulting",
-        image: "/technical-blueprints-fire-safety-design.jpg",
+  image: "/ssplus_website/technical-blueprints-fire-safety-design.jpg",
         features: [
           "Études de risques incendie",
           "Conception de systèmes",
@@ -56,7 +56,7 @@ const services = {
         title: "Support Technique",
         description: "Assistance technique et support client pour tous vos équipements. Notre équipe d'experts est disponible 24/7 pour résoudre rapidement tout problème technique et garantir la continuité de vos opérations de sécurité.",
         href: "/services/support",
-        image: "/technical-support-team-helping-client.jpg",
+  image: "/ssplus_website/technical-support-team-helping-client.jpg",
         features: [
           "Hotline technique 24/7",
           "Diagnostic à distance",

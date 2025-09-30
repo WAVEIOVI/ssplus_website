@@ -25,6 +25,7 @@ export function Navigation() {
     });
   }
 
+  const basePath = "/ssplus_website"
   return (
     <header className={`sticky top-0 z-50 w-full border-b backdrop-blur transition-all duration-300 overflow-hidden ${
       scrolled ? "bg-background/95 shadow-md" : "bg-background/80"
@@ -65,7 +66,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative h-8 md:h-9 lg:h-10 w-auto flex items-center">
               <Image 
-                src="/images/logo-ss-plus-hor.png" 
+                src={`${basePath}/images/logo-ss-plus-hor.png`} 
                 alt="SS PLUS" 
                 width={200} 
                 height={48} 

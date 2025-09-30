@@ -10,6 +10,7 @@ export function Footer() {
   const { currentLang } = useLanguage()
   const t = getTranslation("footer", currentLang)
 
+  const basePath = "/ssplus_website"
   return (
     <footer className="bg-neutral-900 text-neutral-100">
       <div className="container mx-auto px-4 py-8 md:py-12">
@@ -17,7 +18,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <Image
-              src="/images/ss plus logo footer.png"
+              src={`${basePath}/images/ss plus logo footer.png`}
               alt="SS PLUS"
               width={220}
               height={60}

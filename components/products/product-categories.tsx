@@ -14,7 +14,7 @@ const categories = {
         title: "Équipements Incendie",
         description: "Extincteurs, systèmes de détection, alarmes incendie et équipements de lutte",
         href: "/products/firefighting",
-        image: "/fire-extinguisher-equipment.jpg",
+  image: "/ssplus_website/fire-extinguisher-equipment.jpg",
         products: ["Extincteurs CO2", "Détecteurs de fumée", "Systèmes sprinkler", "Alarmes incendie"],
       },
       {
@@ -22,7 +22,7 @@ const categories = {
         title: "EPI & Sécurité",
         description: "Équipements de protection individuelle et vêtements de sécurité",
         href: "/products/ppe",
-        image: "/safety-helmet-and-protective-equipment.jpg",
+  image: "/ssplus_website/safety-helmet-and-protective-equipment.jpg",
         products: ["Casques de sécurité", "Gants de protection", "Chaussures de sécurité", "Masques respiratoires"],
       },
       {
@@ -30,7 +30,7 @@ const categories = {
         title: "Signalisation Sécurité",
         description: "Panneaux de sécurité, marquage au sol et équipements d'urgence",
         href: "/products/signage",
-        image: "/safety-signs-and-emergency-equipment.jpg",
+  image: "/ssplus_website/safety-signs-and-emergency-equipment.jpg",
         products: [
           "Panneaux d'évacuation",
           "Éclairage de secours",
@@ -43,7 +43,7 @@ const categories = {
         title: "Équipements d'Urgence",
         description: "Matériel de premiers secours et équipements d'intervention d'urgence",
         href: "/products/emergency",
-        image: "/emergency-first-aid-equipment.jpg",
+  image: "/ssplus_website/emergency-first-aid-equipment.jpg",
         products: [
           "Trousses de premiers secours",
           "Défibrillateurs",

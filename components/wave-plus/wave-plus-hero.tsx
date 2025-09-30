@@ -45,6 +45,7 @@ const heroContent = {
 export function WavePlusHero({ currentLang }: WavePlusHeroProps) {
   const t = heroContent[currentLang]
 
+  const basePath = "/ssplus_website"
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Elements */}
@@ -115,7 +116,7 @@ export function WavePlusHero({ currentLang }: WavePlusHeroProps) {
                   <div className="relative">
                     <div className="w-40 h-40 mx-auto relative">
                       <Image
-                        src="/images/wave-plus-logo.png"
+                        src={`${basePath}/images/wave-plus-logo.png`}
                         alt="Wave Plus Logo"
                         fill
                         className="object-contain"

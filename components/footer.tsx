@@ -91,9 +91,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/wave-plus" className="text-neutral-400 hover:text-primary transition-colors">
+                <a href="http://137.74.46.234" className="text-neutral-400 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
                   {t.waveplus}
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

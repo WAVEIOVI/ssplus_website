@@ -99,7 +99,7 @@ export default function HomePage() {
                 size="lg" 
                 className="bg-white/10 text-white border-white/30 hover:bg-white/20 hover:scale-105 transition-transform animate-bounce-slow"
               >
-                <Link href="/wave-plus">{t.hero.secondaryCta}</Link>
+                <a href="http://137.74.46.234" target="_blank" rel="noopener noreferrer">{t.hero.secondaryCta}</a>
               </Button>
             </div>
           </div>

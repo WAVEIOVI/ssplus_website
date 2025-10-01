@@ -94,7 +94,7 @@ export function Navigation() {
               {t.contact}
             </Link>
             <Button asChild className="bg-primary hover:bg-primary-dark">
-              <Link href="/wave-plus">{t.waveplus}</Link>
+              <a href="http://137.74.46.234" target="_blank" rel="noopener noreferrer">{t.waveplus}</a>
             </Button>
           </nav>
 
@@ -125,7 +125,7 @@ export function Navigation() {
               </Link>
               <div className="px-3 py-2">
                 <Button asChild className="w-full bg-primary hover:bg-primary-dark">
-                  <Link href="/wave-plus">{t.waveplus}</Link>
+                  <a href="http://137.74.46.234" target="_blank" rel="noopener noreferrer">{t.waveplus}</a>
                 </Button>
               </div>
             </div>
